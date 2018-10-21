@@ -12,6 +12,8 @@
 		290E1868217B8D7100D24CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E1866217B8D7100D24CF8 /* Main.storyboard */; };
 		290E186A217B8D7100D24CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290E1869217B8D7100D24CF8 /* Assets.xcassets */; };
 		290E186D217B8D7100D24CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E186B217B8D7100D24CF8 /* LaunchScreen.storyboard */; };
+		290E1875217BBE9F00D24CF8 /* LoanApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E1874217BBE9F00D24CF8 /* LoanApplicationVC.swift */; };
+		290E1877217BBEB600D24CF8 /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E1876217BBEB600D24CF8 /* SuccessVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		290E1869217B8D7100D24CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290E186C217B8D7100D24CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		290E186E217B8D7100D24CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290E1874217BBE9F00D24CF8 /* LoanApplicationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanApplicationVC.swift; sourceTree = "<group>"; };
+		290E1876217BBEB600D24CF8 /* SuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				290E1869217B8D7100D24CF8 /* Assets.xcassets */,
 				290E186B217B8D7100D24CF8 /* LaunchScreen.storyboard */,
 				290E186E217B8D7100D24CF8 /* Info.plist */,
+				290E1874217BBE9F00D24CF8 /* LoanApplicationVC.swift */,
+				290E1876217BBEB600D24CF8 /* SuccessVC.swift */,
 			);
 			path = "Otp Bank";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290E1877217BBEB600D24CF8 /* SuccessVC.swift in Sources */,
 				290E1865217B8D7100D24CF8 /* ViewController.swift in Sources */,
 				290E1863217B8D7100D24CF8 /* AppDelegate.swift in Sources */,
+				290E1875217BBE9F00D24CF8 /* LoanApplicationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
